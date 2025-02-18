@@ -1,6 +1,6 @@
 # สารบัญ
-- [REST API คืออะไร?](./rest-api-lab.md#1-REST-API-คืออะไร?)
-- [Postman  คืออะไร?](./rest-api-lab.md#2-Postman-คืออะไร?)
+- [REST API คืออะไร?](./rest-api-lab.md#-1-REST-API-คืออะไร?)
+- [Postman  คืออะไร?](./rest-api-lab.md#-2-Postman-คืออะไร?)
 - [การทดลองที่ 1: การพัฒนา REST API ด้วย Node.js](./rest-api-lab.md#การทดลองที่-1--การพัฒนา-REST-API-ด้วย-Nodejs)
   - [1.1 การติดตั้งและตั้งค่าสภาพแวดล้อม](./rest-api-lab.md#11-การติดตั้งและตั้งค่าสภาพแวดล้อม)
   - [1.2 การสร้างฐานข้อมูล](./rest-api-lab.md#12-การสร้างฐานข้อมูล)
