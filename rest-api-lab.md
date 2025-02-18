@@ -542,6 +542,23 @@ def dict_factory(cursor, row):
         d[col[0]] = row[idx]
     return d
 
+def create_table():
+        conn = sqlite3.connect('bookings.db')
+        conn.row_factory = dict_factory
+        c = conn.cursor()
+        sql= '''CREATE TABLE IF NOT EXISTS bookings (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        fullname TEXT NOT NULL,
+        email TEXT NOT NULL,
+        phone TEXT NOT NULL,
+        checkin DATE NOT NULL,
+        checkout DATE NOT NULL,
+        roomtype TEXT NOT NULL,
+        guests INTEGER NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)'''
+        c.execute(sql)
+
+create_table()
 # สร้างการจอง (Create)
 @app.route('/api/bookings', methods=['POST'])
 def create_booking():
