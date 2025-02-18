@@ -671,7 +671,7 @@ def delete_booking(id):
 if __name__ == '__main__':
     app.run(port=PORT, debug=True)
 
-### 2.3 การทดสอบ API Python ด้วย Postman
+### 2.3 การทดสอบ Python REST API
 
 1. run API Server โดยการพิมพ์คำสั่ง
 
