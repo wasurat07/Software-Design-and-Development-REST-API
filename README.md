@@ -10,4 +10,4 @@
 - [การทดลองที่ 2: การพัฒนา REST API ด้วยภาษา Python](./rest-api-lab.md#การทดลองที่-2-การพัฒนา-rest-api-ด้วยภาษา-python)
   - [2.1 การติดตั้งและตั้งค่าสภาพแวดล้อมการพัฒนาด้วย Python](./rest-api-lab.md#21-การติดตั้งและตั้งค่าสภาพแวดล้อมการพัฒนาด้วย-python)
   - [2.2 สร้าง Virtual Environment](./rest-api-lab.md#22-สร้าง-virtual-environment)
-  - [2.3 การทดสอบ Python REST API ](./rest-api-lab.md#23-การทดสอบ-python-rest-api )
+  - [2.3 การทดสอบ Python REST API ](./rest-api-lab.md#23-การทดสอบ-python-rest-api)
