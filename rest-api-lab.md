@@ -670,6 +670,7 @@ def delete_booking(id):
 
 if __name__ == '__main__':
     app.run(port=PORT, debug=True)
+```
 
 ### 2.3 การทดสอบ Python REST API
 
